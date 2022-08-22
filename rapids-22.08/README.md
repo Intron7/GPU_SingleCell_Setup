@@ -29,13 +29,13 @@ Than install the base single cell packages with pip
 ```
 pip install scanpy muon mofax mofapy2 scirpy decoupler squidpy scfates scikit-misc
 ```
-Then install the needed deep learning libraries for scvi-tools.
+Then install the needed deep learning libraries for scvi-tools. \
 Here we install pytorch for cuda version 11.6 you can also install it for version 11.3
 ```
 pip install --upgrade "jax[cuda]" -f https://storage.googleapis.com/jax-releases/jax_cuda_releases.html
 pip install torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cu116
 ```
-Now we can install scvi-tools and pyMDE. This will result in some errors. Protobuf 3.20.1 works with all packages. So we have to manually reinstall that and force this specific version.
+Now we can install scvi-tools and pyMDE. This will result in some errors. Protobuf 3.20.1 works with all packages. So we have to manually reinstall it and force this specific version.
 ```
 pip install scvi-tools
 pip install protobuf==3.20.1
@@ -47,12 +47,12 @@ For the newest version and features check the [git](https://github.com/Intron7/r
 pip install https://github.com/Intron7/rapids_singlecell/releases/download/v0.2.1/rapids_singlecell-0.2.1-py3-none-any.whl
 ```
 
-## Set Jupyter Lab
-If you want to start jupter lab from this enviroment. You have to install it:
+## Set Up Jupyter Lab
+If you want to start jupter lab from this enviroment. You install it like this:
 ```
 pip install jupyterlab
 ```
-If you just want the Kernel to be accsesble from a different Jupyter Notebook server or Jupyter Hub just install the kernel
+If you just want a kernel to be accsesble from a different Jupyter Notebook server or Jupyter Hub install:
 ```
 ipython kernel install --user --name=rapids-22.08
 ```
