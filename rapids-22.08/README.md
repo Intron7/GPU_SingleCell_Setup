@@ -44,7 +44,7 @@ pip install pymde
 Now we can install rapids_singlecell. rapids_singlecell lets you run scRNA Analysis on the GPU, while beeing compatible with scanpy.
 For the newest version and features check the [git](https://github.com/Intron7/rapids_singlecell)
 ```
-pip install https://github.com/Intron7/rapids_singlecell/releases/download/v0.2.1/rapids_singlecell-0.2.1-py3-none-any.whl
+pip install https://github.com/Intron7/rapids_singlecell/releases/download/v0.2.2/rapids_singlecell-0.2.2-py3-none-any.whl
 ```
 
 ## Set Up Jupyter Lab
