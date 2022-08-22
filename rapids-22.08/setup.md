@@ -1,6 +1,6 @@
 # Rapids-22.08
 
-This tutorial works for Ubuntu and Debian. It might also work for other linux distributions.
+This tutorial works for Ubuntu and Debian. It might also work for other linux distributions. Please install all packages in the excat order because it might otherwise brake the enviroment.
 
 ## Create Conda enviroment
 to create the rapids base enviroment in the default location
