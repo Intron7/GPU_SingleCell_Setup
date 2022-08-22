@@ -6,6 +6,7 @@ Tools included:
 * [Rapids](https://rapids.ai)
 * [scanpy](https://scanpy.readthedocs.io/en/stable/)
 * [muon](https://muon.readthedocs.io/en/latest/index.html)
+* [scfates](https://scfates.readthedocs.io/en/latest/)
 * [scvi-tools](https://scvi-tools.org/)
 * [pytorch](https://pytorch.org/)
 * [jax](https://github.com/google/jax)
