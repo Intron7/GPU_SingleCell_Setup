@@ -1,5 +1,7 @@
 # Rapids-22.08
 
+This tutorial works for Ubuntu and Debian. It might also work for other linux distributions.
+
 ## Create Conda enviroment
 to create the rapids base enviroment in the default location
 
